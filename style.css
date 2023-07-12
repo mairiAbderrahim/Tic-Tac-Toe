@@ -1,0 +1,36 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.cell:hover{
+    background-color: blue;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    background-color: blue;
+    color: #eee;
+    width: 100px;
+    border-radius: 8%;
+    padding: 20px;
+    cursor: pointer;
+}
+button:hover {
+    filter: brightness(75%);
+}
